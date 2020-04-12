@@ -1,0 +1,35 @@
+html {
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+        "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+body {
+    color: #111;
+}
+input,
+button {
+    border-radius: 0.2rem;
+    border: 1px solid #b9b9b9;
+    outline: none;
+    font-size: 1rem;
+}
+input {
+  line-height: 2rem;
+}
+button {
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: 200;
+    background-color: #111;
+    cursor: pointer;
+    line-height: 1.5rem;
+}
+h1 {
+    font-size: 1.2rem;
+    color: #313131;
+    font-weight: 700;
+}
+button:disabled {
+  cursor: auto;
+  background-color: #ccc;
+  border-color: #d2d0d0;
+}

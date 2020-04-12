@@ -1,0 +1,9 @@
+{
+    "elm.compiler": "/Users/lissm/.nvm/versions/node/v10.9.0/bin/elm",
+    "elm.formatCommand": "./node_modules/.bin/elm-format",
+    "editor.tabSize": 2,
+    "[elm]": {
+        "editor.formatOnSave": true
+    },
+    "prettier.singleQuote": true,
+}

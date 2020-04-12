@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "declaration": false,
+        "target": "es6",
+        "importHelpers": true,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "outDir": "build",
+        "noEmitOnError": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strictNullChecks": true,
+        "typeRoots": ["node_modules/@types"],
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "strictFunctionTypes": false,
+        "lib": [
+            "es2017.object",
+            "es6",
+            "es2015",
+            "dom",
+            "scripthost",
+            "esnext.asynciterable"
+        ]
+    },
+    "include": ["**/*.ts*"],
+    "exclude": ["node_modules"]
+}
